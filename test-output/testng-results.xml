@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="76897" started-at="2019-12-31T09:56:03Z" finished-at="2019-12-31T09:57:20Z">
+    <groups>
+    </groups>
+    <test name="testChromeDocker" duration-ms="49363" started-at="2019-12-31T09:56:03Z" finished-at="2019-12-31T09:56:52Z">
+      <class name="test.zaleniumDocker.ZaleniumGridDockerConcept">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:test.zaleniumDocker.ZaleniumGridDockerConcept@5579bb86]" name="setup" is-config="true" duration-ms="48584" started-at="2019-12-31T09:56:03Z" finished-at="2019-12-31T09:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateTitle()[pri:0, instance:test.zaleniumDocker.ZaleniumGridDockerConcept@5579bb86]" name="validateTitle" duration-ms="380" started-at="2019-12-31T09:56:52Z" finished-at="2019-12-31T09:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.zaleniumDocker.ZaleniumGridDockerConcept@5579bb86]" name="tearDown" is-config="true" duration-ms="389" started-at="2019-12-31T09:56:52Z" finished-at="2019-12-31T09:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.zaleniumDocker.ZaleniumGridDockerConcept@5579bb86]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-12-31T09:56:52Z" finished-at="2019-12-31T09:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.zaleniumDocker.ZaleniumGridDockerConcept -->
+    </test> <!-- testChromeDocker -->
+    <test name="testFFDocker" duration-ms="76897" started-at="2019-12-31T09:56:03Z" finished-at="2019-12-31T09:57:20Z">
+      <class name="test.zaleniumDocker.ZaleniumGridDockerConcept">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:test.zaleniumDocker.ZaleniumGridDockerConcept@1068e947]" name="setup" is-config="true" duration-ms="67937" started-at="2019-12-31T09:56:03Z" finished-at="2019-12-31T09:57:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateTitle()[pri:0, instance:test.zaleniumDocker.ZaleniumGridDockerConcept@1068e947]" name="validateTitle" duration-ms="91" started-at="2019-12-31T09:57:11Z" finished-at="2019-12-31T09:57:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.zaleniumDocker.ZaleniumGridDockerConcept@1068e947]" name="tearDown" is-config="true" duration-ms="8866" started-at="2019-12-31T09:57:11Z" finished-at="2019-12-31T09:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.zaleniumDocker.ZaleniumGridDockerConcept@1068e947]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-12-31T09:57:20Z" finished-at="2019-12-31T09:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.zaleniumDocker.ZaleniumGridDockerConcept -->
+    </test> <!-- testFFDocker -->
+  </suite> <!-- Suite -->
+</testng-results>
